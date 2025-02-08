@@ -15,7 +15,7 @@ const TableOfContext = ({ dataStructureType, questions, setSelectedQuestion }) =
                 questions.map((question, index) => {
                     return (
                         <Center key={index}>
-                            <Link to={`/${dataStructureType}/${index}`}>
+                            <Link to={`/fundamental/${dataStructureType}/${index}`}>
                                 <Button 
                                     key={index} 
                                     onClick={() => selectQuestion(index)}

@@ -22,7 +22,7 @@ const BFS = () => {
     const [selectedQuestion, setSelectedQuestion] = useState(null);
     const location = useLocation();
 
-    if (selectedQuestion === null || location.pathname === "/bfs") {
+    if (selectedQuestion === null || location.pathname === "/fundamental/bfs") {
         return (
             <TableOfContext 
                 dataStructureType={'bfs'}

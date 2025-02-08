@@ -18,7 +18,7 @@ const DFS = () => {
     const [selectedQuestion, setSelectedQuestion] = useState(null);
     const location = useLocation();
 
-    if (selectedQuestion === null || location.pathname === "/dfs") {
+    if (selectedQuestion === null || location.pathname === "/fundamental/dfs") {
         return (
             <TableOfContext 
                 dataStructureType={'dfs'}

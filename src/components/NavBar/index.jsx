@@ -21,10 +21,10 @@ const NavBar = () => {
                     Fundamentals
                 </div>
                 <ul className='navbar-list'>
-                    <li className={ classNames(path === '/' && 'selected dark-mode-nav')}> 
-                        <Link to='/'>
+                    <li className={ classNames(path === '/fundamental/' && 'selected dark-mode-nav')}> 
+                        <Link to='/fundamental/'>
                             {
-                                path === '/'
+                                path === '/fundamental/'
                                 ? <>
                                     <div id='top' className='dark-mode-top'></div>
                                         {/* <img src={ overviewDarkIcon } alt='overview icon' className='icons' /> */}
@@ -38,10 +38,10 @@ const NavBar = () => {
                             }
                         </Link>
                     </li>
-                    <li  className={ classNames(path.indexOf('/bfs') > -1 && 'selected dark-mode-nav') }>
-                        <Link to='/bfs'>
+                    <li  className={ classNames(path.indexOf('/fundamental/bfs') > -1 && 'selected dark-mode-nav') }>
+                        <Link to='/fundamental/bfs'>
                             {
-                                path === '/bfs'
+                                path === '/fundamental/bfs'
                                 ? <>
                                     <div id='top' className='dark-mode-top'></div>
                                         {/* <img src={ reportDarkIcon } alt='report icon' className='icons' /> */}
@@ -55,10 +55,10 @@ const NavBar = () => {
                             }
                         </Link>
                     </li>
-                    <li  className={ classNames(path.indexOf('/dfs') > -1 && 'selected dark-mode-nav') }>
-                        <Link to='/dfs'>
+                    <li  className={ classNames(path.indexOf('/fundamental/dfs') > -1 && 'selected dark-mode-nav') }>
+                        <Link to='/fundamental/dfs'>
                             {
-                                path === '/dfs'
+                                path === '/fundamental/dfs'
                                 ? <>
                                     <div id='top' className='dark-mode-top'></div>
                                         {/* <img src={ reportDarkIcon } alt='report icon' className='icons' /> */}
@@ -72,10 +72,10 @@ const NavBar = () => {
                             }
                         </Link>
                     </li>
-                    <li  className={ classNames(path.indexOf('/settings') > -1  && 'selected dark-mode-nav') }>
-                        <Link to='settings'>
+                    <li  className={ classNames(path.indexOf('/fundamental/settings') > -1  && 'selected dark-mode-nav') }>
+                        <Link to='/fundamental/settings'>
                             {
-                                path === '/settings'
+                                path === '/fundamental/settings'
                                 ? <>
                                     <div id='top' className='dark-mode-top'></div>
                                         <img src={ settingsDarkIcon } alt='setttings icon' className='icons' />
@@ -102,10 +102,10 @@ const NavBar = () => {
                 Fundamentals
             </div>
             <ul className='navbar-list'>
-                <li className={ classNames(path === '/' && 'selected light-mode-nav')}> 
-                    <Link to='/'>
+                <li className={ classNames(path === '/fundamental/' && 'selected light-mode-nav')}> 
+                    <Link to='/fundamental/'>
                         {
-                            path === '/'
+                            path === '/fundamental/'
                             ? <>
                                 <div id='top' className='light-mode-top'></div>
                                     {/* <img src={ overviewIcon } alt='overview icon' className='icons' /> */}
@@ -119,10 +119,10 @@ const NavBar = () => {
                         }
                     </Link>
                 </li>
-                <li  className={ classNames(path.indexOf('/bfs') > -1 && 'selected light-mode-nav') }>
-                    <Link to='/bfs'>
+                <li  className={ classNames(path.indexOf('/fundamental/bfs') > -1 && 'selected light-mode-nav') }>
+                    <Link to='/fundamental/bfs'>
                         {
-                            path === '/bfs'
+                            path === '/fundamental/bfs'
                             ? <>
                                 <div id='top' className='light-mode-top'></div>
                                     {/* <img src={ reportIcon } alt='report icon' className='icons' /> */}
@@ -136,10 +136,10 @@ const NavBar = () => {
                         }
                     </Link>
                 </li>
-                <li  className={ classNames(path.indexOf('/dfs') > -1 && 'selected light-mode-nav') }>
-                    <Link to='/dfs'>
+                <li  className={ classNames(path.indexOf('/fundamental/dfs') > -1 && 'selected light-mode-nav') }>
+                    <Link to='/fundamental/dfs'>
                         {
-                            path === '/dfs'
+                            path === '/fundamental/dfs'
                             ? <>
                                 <div id='top' className='light-mode-top'></div>
                                     {/* <img src={ reportIcon } alt='report icon' className='icons' /> */}
@@ -153,10 +153,10 @@ const NavBar = () => {
                         }
                     </Link>
                 </li>
-                <li  className={ classNames(path.indexOf('/settings') > -1  && 'selected light-mode-nav') }>
-                    <Link to='settings'>
+                <li  className={ classNames(path.indexOf('/fundamental/settings') > -1  && 'selected light-mode-nav') }>
+                    <Link to='/fundamental/settings'>
                         {
-                            path === '/settings'
+                            path === '/fundamental/settings'
                             ? <>
                                 <div id='top' className='light-mode-top'></div>
                                     <img src={ setttingsIcon } alt='setttings icon' className='icons' />
