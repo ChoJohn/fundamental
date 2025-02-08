@@ -11,12 +11,12 @@ const Router = () => {
     return (
         <div className={dataContext.state.darkMode ? 'content dark-mode' : 'content light-mode'}>
             <Routes>
-                <Route exact path='/' element={ <Home /> } />
-                <Route path='/bfs' element={ <BFS /> } />
-                <Route path='/bfs/:id' element={ <BFS /> } />
-                <Route path='/dfs' element={ <DFS /> } />
-                <Route path='/dfs/:id' element={ <DFS /> } />
-                <Route path='/settings' element={ <Settings /> } />
+                <Route exact path='/fundamental/' element={ <Home /> } />
+                <Route path='/fundamental/bfs' element={ <BFS /> } />
+                <Route path='/fundamental/bfs/:id' element={ <BFS /> } />
+                <Route path='/fundamental/dfs' element={ <DFS /> } />
+                <Route path='/fundamental/dfs/:id' element={ <DFS /> } />
+                <Route path='/fundamental/settings' element={ <Settings /> } />
             </Routes>
         </div>
     )
