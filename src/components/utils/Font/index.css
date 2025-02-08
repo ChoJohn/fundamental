@@ -1,0 +1,27 @@
+.header-font {
+    text-align: left;
+    font-weight: bold;
+    margin: 0 0 25px 0;
+    font-size: 36px;
+}
+
+.subheader-font {
+    text-align: left;
+    font-weight: bold;
+    margin: 0 0 25px 0;
+    font-size: 24px;
+}
+
+.paragraph-font {
+    text-align: left;
+    font-weight: normal;
+    margin: 12px 0;
+    font-size: 15px;
+}
+
+.example-font {
+    text-align: left;
+    font-weight: normal;
+    margin: 12px 0;
+    font-size: 15px;
+}
