@@ -1,0 +1,28 @@
+.toggle,
+.toggle:focus {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 25px 0;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: none; 
+    outline: none;
+    box-sizing: content-box;
+}
+
+.button-font {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dark-mode-setting {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button:hover {
+    cursor: pointer;
+}

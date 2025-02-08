@@ -1,0 +1,25 @@
+.card-container {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    /* min-height: 675px; */
+    /* margin: 25px; */
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding: 5px; /* this is for card in. it's touching shadow. may need to adjust as i go */
+    
+}
